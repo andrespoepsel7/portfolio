@@ -8,6 +8,7 @@ import 'aos/dist/aos.css'
 import { Route, Routes } from 'react-router-dom';
 import Main from './components/pages/Main';
 import LandingPage from './components/layouts/LandingPage'
+import About from './components/layouts/About';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Route element={<Main/>}>
         {/* Rutas */}
         <Route path='/' element={<LandingPage/>}/>
+        <Route path='/about' element={<About/>}/>
       </Route>
     </Routes>
   );
