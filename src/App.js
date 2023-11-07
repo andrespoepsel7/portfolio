@@ -9,6 +9,7 @@ import { Route, Routes } from 'react-router-dom';
 import Main from './components/pages/Main';
 import LandingPage from './components/layouts/LandingPage'
 import About from './components/layouts/About';
+import Skills from './components/layouts/Skills';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         {/* Rutas */}
         <Route path='/' element={<LandingPage/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/skills' element={<Skills/>}/>
       </Route>
     </Routes>
   );

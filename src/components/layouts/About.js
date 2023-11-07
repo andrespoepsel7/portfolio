@@ -105,7 +105,7 @@ export default function About() {
       </WebComponent>
       <MobileComponent>
         <FullScreenDiv>
-          <div className='w-full full-grow flex flex-col bg-slate-900 px-[10%] text-white font-roboto'>
+          <div className='w-full full-grow flex flex-col bg-slate-900 px-[5%] text-white font-roboto'>
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='mt-8 mb-6 text-cyan-300 text-[40px] font-bold'>About me</p>
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[14px] font-light text-justify mb-10'>
               Embarking on a journey in electronics and telecommunications engineering in 2018,
