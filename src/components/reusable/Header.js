@@ -2,7 +2,7 @@ import React, {useState, useEffect, useRef} from 'react'
 import WebComponent from './WebComponent'
 import MobileComponent from './MobileComponent'
 import { useNavigate } from 'react-router-dom'
-import {MdHome, MdMenu, MdInfo, MdDocumentScanner, MdContactPage} from 'react-icons/md'
+import {MdHome, MdMenu, MdInfo, MdDocumentScanner, MdDirectionsRun} from 'react-icons/md'
 import {BsLightningChargeFill} from 'react-icons/bs'
 import logoSquared from '../../assets/images/logoSquared.png'
 
@@ -61,7 +61,7 @@ export default function Header() {
             </button>
             <button 
               className='rounded-md hover:text-slate-900 py-1 px-2 hover:bg-gradient-to-r hover:from-cyan-300 hover:to-green-300'
-              onClick={()=>navigate('/')}
+              onClick={()=>navigate('/projects')}
             >
               Projects
             </button>
@@ -69,14 +69,17 @@ export default function Header() {
               className='rounded-md hover:text-slate-900 py-1 px-2 hover:bg-gradient-to-r hover:from-cyan-300 hover:to-green-300'
               onClick={()=>navigate('/')}
             >
-              Contact
+              Hobbies
             </button>
           </div>
         </div>
       </WebComponent>
       <MobileComponent>
         <div className='fixed flex flex-row top-0 left-0 w-full h-[70px] py-2 px-[2%] bg-slate-900 shadow-md shadow-cyan-300 items-center justify-between'>
-          <p className='font-bold font-roboto text-[20px] text-cyan-300'>Web Portfolio!</p>
+          <div onClick={()=>navigate('/')} className='flex flex-row items-center cursor-pointer'>
+            <img src={logoSquared} alt="logo" width={45} className='rounded-md'/>
+            <p className='font-bold font-roboto text-[30px] ml-1 text-cyan-300'>ortfolio!</p>
+          </div>
           {/* Menu, modal */}
           <div className='cursor-pointer font-mon text-c2' ref={mobileMenuRef}>
             <div 
@@ -126,11 +129,11 @@ export default function Header() {
                     className='flex flex-row items-center justify-start py-2 px-4 cursor-pointer hover:bg-slate-900 hover:text-white'
                     onClick={()=>{
                         setModal(false)
-                        navigate('/')
+                        navigate('/projects')
                     }}
                   >
                     <MdDocumentScanner className='w-[18px] h-[18px]'/>
-                    <p className='ml-2'>Portfolio</p>
+                    <p className='ml-2'>Projects</p>
                   </div>
                   <div 
                     className='flex flex-row items-center justify-start py-2 px-4 cursor-pointer hover:bg-slate-900 hover:text-white rounded-bl-[12px]'
@@ -139,8 +142,8 @@ export default function Header() {
                         navigate('/')
                     }}
                   >
-                    <MdContactPage className='w-[18px] h-[18px]'/>
-                    <p className='ml-2'>Contact</p>
+                    <MdDirectionsRun className='w-[18px] h-[18px]'/>
+                    <p className='ml-2'>Hobbies</p>
                   </div>
                 </div>
               </div>

@@ -10,6 +10,7 @@ import Main from './components/pages/Main';
 import LandingPage from './components/layouts/LandingPage'
 import About from './components/layouts/About';
 import Skills from './components/layouts/Skills';
+import Projects from './components/layouts/Projects';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/' element={<LandingPage/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/skills' element={<Skills/>}/>
+        <Route path='/projects' element={<Projects/>}/>
       </Route>
     </Routes>
   );
