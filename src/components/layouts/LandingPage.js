@@ -96,7 +96,10 @@ export default function LandingPage() {
           </div>
 
           <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[70px] text-cyan-300 mt-[110px]'>
-            Let's build the future together!
+            The future is now,
+          </p>
+          <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[70px] text-cyan-300 mt-3'>
+            let's build it together!
           </p>
         </div>      
       </WebComponent>
@@ -184,14 +187,14 @@ export default function LandingPage() {
           </div>
 
           <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[30px] text-cyan-300 font-bold mt-12'>
-            Let's build
+            The future is now,
           </p>
           <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[30px] text-cyan-300 font-bold mb-12'>
-            The future together!
+            let's build it together!
           </p>
         </div>
       </MobileComponent>
-    </>
+    </>  
     
   )
 }

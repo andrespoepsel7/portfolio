@@ -2,12 +2,11 @@ import React from 'react'
 import WebComponent from '../reusable/WebComponent'
 import MobileComponent from '../reusable/MobileComponent'
 import FullScreenDiv from '../reusable/FullScreenDiv'
-import timeline from '../../assets/images/timeline.png'
-import python from '../../assets/images/python.png'
-import js from '../../assets/images/jshtmlcss.png'
-import php from '../../assets/images/php.png'
-import amplify from '../../assets/images/amplify.png'
-import stack from '../../assets/images/stack.png'
+// import timeline from '../../assets/images/timeline.png'
+// import python from '../../assets/images/python.png'
+// import js from '../../assets/images/jshtmlcss.png'
+// import php from '../../assets/images/php.png'
+// import amplify from '../../assets/images/amplify.png'
 
 export default function About() {
   return (
@@ -24,7 +23,7 @@ export default function About() {
               the art of developing applications. This pivotal moment marked the beginning of a quest; a 
               quest to harness the power of programming to create impactful digital solutions.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={timeline} alt="timeline" className='rounded-[25px]'/>
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/timeline.png" alt="timeline" className='rounded-[25px]'/>
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] text-justify my-10'>
               As the world navigated the uncharted waters of the pandemic, I found my academic pursuits 
               transitioning to a virtual realm. It was during this digital metamorphosis that my fascination 
@@ -35,7 +34,7 @@ export default function About() {
               my self-directed journey into the world of programming, starting with the versatile and 
               accessible language of Python.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={python} alt="python"/>
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/python.png" alt="python"/>
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] text-justify my-10'>
               With Python as my compass, I navigated the vast seas of programming, discovering the power 
               of logic to unravel complex problems. This language, with its clear syntax and versatility, 
@@ -44,7 +43,7 @@ export default function About() {
               skills sharpened, so did my resolve to craft not just functional, but also aesthetically 
               pleasing and user-centric software solutions.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={js} alt="jshtmlcss" />
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/jshtmlcss.png" alt="jshtmlcss" />
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] text-justify my-10'>
               My journey then took a creative turn towards the realms of UI/UX design. Armed with HTML, 
               CSS, and JavaScript, I began sculpting user interfaces that were not only intuitive but 
@@ -72,7 +71,7 @@ export default function About() {
               services. It was a step towards the modern, serverless architectures that promised swifter 
               development cycles.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={php} alt="php" className='rounded-[25px] mx-[10%]'/>
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/php.png" alt="php" className='rounded-[25px] mx-[10%]'/>
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] text-justify my-10'>
               But the landscape of backend technologies is ever-evolving, and it wasn't long before Amazon Web 
               Services (AWS) caught my attention. The allure of AWS Amplify was irresistible—a platform offering 
@@ -83,7 +82,7 @@ export default function About() {
               me to develop at an unprecedented pace, with the confidence that AWS's secure and scalable 
               environment was the backbone of my creations.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={amplify} alt="amplify" className='rounded-[25px] mx-[10%]' />
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/amplify.png" alt="amplify" className='rounded-[25px] mx-[10%]' />
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] text-justify my-10'>
               In the ever-evolving tapestry of web development, I discovered the elegance of TailwindCSS, a utility-first 
               framework that revolutionized the way I approached styling. In harmony with React's component-based architecture, 
@@ -92,14 +91,14 @@ export default function About() {
               the cornerstone of my full-stack development suite. Together, they empowered me to build seamless, 
               scalable, and aesthetically compelling digital experiences.
             </p>
-            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] text-justify my-10'>
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/stack.png" alt="stack" className='rounded-[25px] mx-[10%]' />
+            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] text-justify mt-10 mb-12'>
               Yet, the journey of a developer is one of perpetual learning. With each project, I integrate various 
               UI/UX technologies, ensuring that every application is not only functional but also intuitive and 
               delightful to the user. As I continue to navigate the vast ocean of technological advancements, my 
               toolkit expands, embracing new methodologies and innovations. I stand today as a developer who not 
               only builds for the present but also eagerly anticipates and prepares for the future of technology.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={stack} alt="stack" className='rounded-[25px] mx-[10%] mb-12' />
           </div>
         </FullScreenDiv>
       </WebComponent>
@@ -115,7 +114,7 @@ export default function About() {
               the art of developing applications. This pivotal moment marked the beginning of a quest; a 
               quest to harness the power of programming to create impactful digital solutions.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={timeline} alt="timeline" className='rounded-[25px]'/>
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/timeline.png" alt="timeline" className='rounded-[25px]'/>
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[14px] font-light text-justify my-10'>
               As the world navigated the uncharted waters of the pandemic, I found my academic pursuits 
               transitioning to a virtual realm. It was during this digital metamorphosis that my fascination 
@@ -126,7 +125,7 @@ export default function About() {
               my self-directed journey into the world of programming, starting with the versatile and 
               accessible language of Python.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={python} alt="python"/>
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/python.png" alt="python"/>
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[14px] font-light text-justify my-10'>
               With Python as my compass, I navigated the vast seas of programming, discovering the power 
               of logic to unravel complex problems. This language, with its clear syntax and versatility, 
@@ -135,7 +134,7 @@ export default function About() {
               skills sharpened, so did my resolve to craft not just functional, but also aesthetically 
               pleasing and user-centric software solutions.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={js} alt="jshtmlcss" />
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/jshtmlcss.png" alt="jshtmlcss" />
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[14px] font-light text-justify my-10'>
               My journey then took a creative turn towards the realms of UI/UX design. Armed with HTML, 
               CSS, and JavaScript, I began sculpting user interfaces that were not only intuitive but 
@@ -163,7 +162,7 @@ export default function About() {
               services. It was a step towards the modern, serverless architectures that promised swifter 
               development cycles.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={php} alt="php" className='rounded-[25px] mx-[5%]'/>
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/php.png" alt="php" className='rounded-[25px] mx-[5%]'/>
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[14px] font-light text-justify my-10'>
               But the landscape of backend technologies is ever-evolving, and it wasn't long before Amazon Web 
               Services (AWS) caught my attention. The allure of AWS Amplify was irresistible—a platform offering 
@@ -174,7 +173,7 @@ export default function About() {
               me to develop at an unprecedented pace, with the confidence that AWS's secure and scalable 
               environment was the backbone of my creations.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={amplify} alt="amplify" className='rounded-[25px] mx-[5%]' />
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/amplify.png" alt="amplify" className='rounded-[25px] mx-[5%]' />
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[14px] font-light text-justify my-10'>
               In the ever-evolving tapestry of web development, I discovered the elegance of TailwindCSS, a utility-first 
               framework that revolutionized the way I approached styling. In harmony with React's component-based architecture, 
@@ -183,14 +182,14 @@ export default function About() {
               the cornerstone of my full-stack development suite. Together, they empowered me to build seamless, 
               scalable, and aesthetically compelling digital experiences.
             </p>
-            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[14px] font-light text-justify my-10'>
+            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/stack.png" alt="stack" className='rounded-[25px] mx-[5%]' />
+            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[14px] font-light text-justify mt-10 mb-12'>
               Yet, the journey of a developer is one of perpetual learning. With each project, I integrate various 
               UI/UX technologies, ensuring that every application is not only functional but also intuitive and 
               delightful to the user. As I continue to navigate the vast ocean of technological advancements, my 
               toolkit expands, embracing new methodologies and innovations. I stand today as a developer who not 
               only builds for the present but also eagerly anticipates and prepares for the future of technology.
             </p>
-            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" src={stack} alt="stack" className='rounded-[25px] mx-[5%] mb-12' />
           </div>
         </FullScreenDiv>
       </MobileComponent>

@@ -2,10 +2,10 @@ import React from 'react'
 import WebComponent from '../reusable/WebComponent'
 import MobileComponent from '../reusable/MobileComponent'
 import FullScreenDiv from '../reusable/FullScreenDiv'
-import react from '../../assets/images/react.jpeg'
-import amplifyArq from '../../assets/images/amplifyArq.png'
-import languages from '../../assets/images/languages.png'
-import git from '../../assets/images/git.png'
+// import react from '../../assets/images/react.jpeg'
+// import amplifyArq from '../../assets/images/amplifyArq.png'
+// import languages from '../../assets/images/languages.png'
+// import git from '../../assets/images/git.png'
 import {MdLogin} from 'react-icons/md'
 
 export default function Skills() {
@@ -24,7 +24,7 @@ export default function Skills() {
                 <p className='text-[20px] font-light mt-2'>•  UI/UX Implementations: Leveraging various technologies to create intuitive and delightful user experiences.</p>
               </div>
               <div className='w-2/5 flex items-center justify-center my-6'>
-                <img src={react} alt="react" width={200} className='rounded-[20px]'/>
+                <img src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/react.jpeg" alt="react" width={200} className='rounded-[20px]'/>
               </div>
             </div>
             <div className='w-full flex flex-col'>
@@ -34,7 +34,7 @@ export default function Skills() {
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] font-light mt-2'>•  Offering many functionalities with only one stack.</p>
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] font-light mt-2'>•  Saving time and money not testing backend functionalities.</p>
               <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='w-full flex items-center justify-center my-6'>
-                <img src={amplifyArq} alt="amplifyArq" className='rounded-[20px]'/>
+                <img src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/amplifyArq.png" alt="amplifyArq" className='rounded-[20px]'/>
               </div>
             </div>
             <div className='w-full flex flex-col'>
@@ -79,14 +79,14 @@ export default function Skills() {
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] font-light mt-2'>•  PHP: Developing server-side logic and database interactions (prior experience).</p>
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] font-light mt-2'>•  C++: For embedded systems development with a wide variety of microcontrollers.</p>
               <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='w-full flex items-center justify-center my-6 px-[10%]'>
-                <img src={languages} alt="languages" className='rounded-[20px]'/>
+                <img src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/languages.png" alt="languages" className='rounded-[20px]'/>
               </div>
             </div>
             <div className='w-full flex flex-col'>
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='font-bold text-[25px] mt-10 mb-4 text-cyan-300'>Version Control:</p>
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[20px] font-light mt-2'>•  Git: Proficient in using Git for version control and collaboration.</p>
               <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='w-full flex items-center justify-center my-6 px-[10%]'>
-                <img src={git} alt="git" className='rounded-[20px]'/>
+                <img src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/git.png" alt="git" className='rounded-[20px]'/>
               </div>
             </div>
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[40px] text-cyan-300 font-black mt-12'>Soft Skills</p>
@@ -133,7 +133,7 @@ export default function Skills() {
                 <p className='text-[18px] mt-1 font-light'>•  UI/UX Implementations: Leveraging various technologies to create intuitive and delightful user experiences.</p>
               </div>
               <div className='w-full flex items-center justify-center my-6'>
-                <img src={react} alt="react" width={200} className='rounded-[20px]'/>
+                <img src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/react.jpeg" alt="react" width={200} className='rounded-[20px]'/>
               </div>
             </div>
             <div className='w-full flex flex-col'>
@@ -143,7 +143,7 @@ export default function Skills() {
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[18px] mt-1 font-light'>•  Offering many functionalities with only one stack.</p>
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[18px] mt-1 font-light'>•  Saving time and money not testing backend functionalities.</p>
               <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='w-full flex items-center justify-center my-6'>
-                <img src={amplifyArq} alt="amplifyArq" className='rounded-[20px]'/>
+                <img src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/amplifyArq.png" alt="amplifyArq" className='rounded-[20px]'/>
               </div>
             </div>
             <div className='w-full flex flex-col'>
@@ -188,14 +188,14 @@ export default function Skills() {
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[18px] mt-1 font-light'>•  PHP: Developing server-side logic and database interactions (prior experience).</p>
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[18px] mt-1 font-light'>•  C++: For embedded systems development with a wide variety of microcontrollers.</p>
               <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='w-full flex items-center justify-center my-6'>
-                <img src={languages} alt="languages" className='rounded-[20px]'/>
+                <img src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/languages.png" alt="languages" className='rounded-[20px]'/>
               </div>
             </div>
             <div className='w-full flex flex-col'>
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='font-bold text-[25px] mt-10 mb-4 text-cyan-300'>Version Control:</p>
               <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[18px] mt-1 font-light'>•  Git: Proficient in using Git for version control and collaboration.</p>
               <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='w-full flex items-center justify-center my-6'>
-                <img src={git} alt="git" className='rounded-[20px]'/>
+                <img src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/git.png" alt="git" className='rounded-[20px]'/>
               </div>
             </div>
             <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[40px] text-cyan-300 font-black mt-12'>Soft Skills</p>
