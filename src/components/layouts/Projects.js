@@ -243,7 +243,12 @@ export default function Projects() {
                   muted={true}
                   width="250px"
                   pip={false}
-                  light={true}
+                  light="https://portfoliostorage120849-dev.s3.amazonaws.com/public/thumbnailLedCube.png"
+                  style={{
+                    padding: "10px",
+                    backgroundColor: "#67e8f9",
+                    borderRadius: "15px"
+                  }}
                 />
               </div>
             </div>
@@ -335,7 +340,12 @@ export default function Projects() {
                   muted={true}
                   width="100%"
                   pip={false}
-                  light={true}
+                  light="https://portfoliostorage120849-dev.s3.amazonaws.com/public/thumbnailCar.png"
+                  style={{
+                    padding: "10px",
+                    backgroundColor: "#67e8f9",
+                    borderRadius: "15px"
+                  }}
                 />
               </div>
             </div>
@@ -370,7 +380,12 @@ export default function Projects() {
                   muted={true}
                   width="100%"
                   pip={false}
-                  light={true}
+                  light="https://portfoliostorage120849-dev.s3.amazonaws.com/public/thumbnailIrrigation.png"
+                  style={{
+                    padding: "10px",
+                    backgroundColor: "#67e8f9",
+                    borderRadius: "15px"
+                  }}
                 />
               </div>
               <div className='flex flex-col w-1/2'>
@@ -426,7 +441,12 @@ export default function Projects() {
                 muted={true}
                 width="100%"
                 pip={false}
-                light={true}
+                light="https://portfoliostorage120849-dev.s3.amazonaws.com/public/thumbnailGlass.png"
+                style={{
+                  padding: "10px",
+                  backgroundColor: "#67e8f9",
+                  borderRadius: "15px"
+                }}
               />
             </div>
 
@@ -460,7 +480,12 @@ export default function Projects() {
                 muted={true}
                 width="100%"
                 pip={false}
-                light={true}
+                light="https://portfoliostorage120849-dev.s3.amazonaws.com/public/thumbnailRoom+Automation.png"
+                style={{
+                  padding: "10px",
+                  backgroundColor: "#67e8f9",
+                  borderRadius: "15px"
+                }}
               />
             </div>
 
@@ -700,7 +725,12 @@ export default function Projects() {
                 muted={true}
                 width="100%"
                 pip={false}
-                light={true}
+                light="https://portfoliostorage120849-dev.s3.amazonaws.com/public/thumbnailLedCube.png"
+                style={{
+                  padding: "10px",
+                  backgroundColor: "#67e8f9",
+                  borderRadius: "15px"
+                }}
               />
             </div>
 
@@ -783,7 +813,12 @@ export default function Projects() {
                 muted={true}
                 width="100%"
                 pip={false}
-                light={true}
+                light="https://portfoliostorage120849-dev.s3.amazonaws.com/public/thumbnailCar.png"
+                style={{
+                  padding: "10px",
+                  backgroundColor: "#67e8f9",
+                  borderRadius: "15px"
+                }}
               />
             </div>
 
@@ -825,7 +860,13 @@ export default function Projects() {
                 muted={true}
                 width="100%"
                 pip={false}
-                light={true}
+                light="https://portfoliostorage120849-dev.s3.amazonaws.com/public/thumbnailIrrigation.png"
+                style={{
+                  padding: "10px",
+                  backgroundColor: "#67e8f9",
+                  borderRadius: "15px"
+                }}
+                
               />
             </div>
             <div className='w-full grid grid-cols-1 gap-2 px-[5%]'>
@@ -835,6 +876,45 @@ export default function Projects() {
               <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='w-full flex items-center justify-center mt-6'>
                 <img src="https://portfoliostorage120849-dev.s3.amazonaws.com/public/riego1.JPG" alt="riego1" className='rounded-[30px]'/>
               </div>
+            </div>
+
+            {/* Smart polarized film control */}
+            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='font-bold text-[25px] mt-8 text-cyan-300'>Smart Polarized Film Control:</p>
+            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[14px] font-light text-justify mt-4'>
+              In the comfort of my own bedroom, I embarked on a project that seamlessly blended the realms of home automation and privacy: 
+              the smart control of polarized glass. This innovative endeavor involved retrofitting a standard glass pane with a special 
+              film that turns opaque with a 60V electric pulse, traditionally operated by a remote. My goal was to elevate its functionality 
+              by integrating it with the Internet of Things (IoT).
+            </p>
+            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[14px] font-light text-justify mt-8'>
+              Leveraging the versatility of an ESP32 board, I connected a relay to the transformer's power source, which controlled the polarization 
+              state of the glass. The real magic unfolded with the implementation of the Espressif RainMaker framework, which allowed me to create a 
+              digital state for the glass that could be managed via my smartphone. This setup also included integration with Alexa for voice-activated 
+              control, adding a layer of convenience and futuristic flair.
+            </p>
+            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='text-[14px] font-light text-justify mt-8'>
+              This project was a personal revelation, igniting my passion for IoT and the potential it holds. It demonstrated how a simple idea could 
+              be transformed into a sophisticated, tangible product that enhances everyday life. The ability to switch the glass from transparent to 
+              opaque with a tap on my phone or a simple voice command to Alexa was not just about modern luxury; it was a testament to the power of 
+              IoT in creating smart environments.
+            </p>
+            
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className='w-full flex items-center justify-center mt-4'>
+              <ReactPlayer
+                url="https://portfoliostorage120849-dev.s3.amazonaws.com/public/vidrios.MP4"
+                loop={true}
+                controls={true}
+                volume={0}
+                muted={true}
+                width="100%"
+                pip={false}
+                light="https://portfoliostorage120849-dev.s3.amazonaws.com/public/thumbnailGlass.png"
+                style={{
+                  padding: "10px",
+                  backgroundColor: "#67e8f9",
+                  borderRadius: "15px"
+                }}
+              />
             </div>
 
 
@@ -875,7 +955,12 @@ export default function Projects() {
                 muted={true}
                 width="100%"
                 pip={false}
-                light={true}
+                light="https://portfoliostorage120849-dev.s3.amazonaws.com/public/thumbnailRoom+Automation.png"
+                style={{
+                  padding: "10px",
+                  backgroundColor: "#67e8f9",
+                  borderRadius: "15px"
+                }}
               />
             </div>
 
