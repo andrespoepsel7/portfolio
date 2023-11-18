@@ -67,7 +67,7 @@ export default function Header() {
             </button>
             <button 
               className='rounded-md hover:text-slate-900 py-1 px-2 hover:bg-gradient-to-r hover:from-cyan-300 hover:to-green-300'
-              onClick={()=>navigate('/')}
+              onClick={()=>navigate('/hobbies')}
             >
               Hobbies
             </button>
@@ -139,7 +139,7 @@ export default function Header() {
                     className='flex flex-row items-center justify-start py-2 px-4 cursor-pointer hover:bg-slate-900 hover:text-white rounded-bl-[12px]'
                     onClick={()=>{
                         setModal(false)
-                        navigate('/')
+                        navigate('/hobbies')
                     }}
                   >
                     <MdDirectionsRun className='w-[18px] h-[18px]'/>

@@ -1,0 +1,9 @@
+/* Customizing the dot colors */
+.slick-dots li button:before {
+  color: rgb(185, 202, 219); /* Change to your desired color */
+}
+
+/* Customizing the active dot color */
+.slick-dots li.slick-active button:before {
+  color: rgb(255, 255, 255); /* Change to your desired color for active dot */
+}
