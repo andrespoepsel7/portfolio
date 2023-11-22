@@ -1,4 +1,10 @@
 {
+  "analytics": {
+    "portfolio": {
+      "providerPlugin": "awscloudformation",
+      "service": "Pinpoint"
+    }
+  },
   "auth": {
     "portfolioc60f3224": {
       "customAuth": false,

@@ -23,6 +23,9 @@
           "appId": "d1mztfg8c89mea",
           "type": "manual"
         }
+      },
+      "analytics": {
+        "portfolio": {}
       }
     }
   }
